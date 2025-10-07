@@ -12,7 +12,7 @@ const cityInput = document.getElementById("cityInput");
 const searchBtn = document.getElementById("searchBtn");
 
 async function setBackground() {
-  const url = "images/clear.jpg";
+  const url = "clear.jpg";
 
   document.body.style.backgroundImage =
     `linear-gradient(rgba(0,0,0,0.35), rgba(0,0,0,0.35)), url('${url}')`;
@@ -178,3 +178,4 @@ window.addEventListener("load", () => {
     }
   );
 });
+
